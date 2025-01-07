@@ -1,0 +1,6 @@
+{
+    "name": "PriceCheck",
+    "entities": [
+        "wood_type:wood_type"
+    ]
+}

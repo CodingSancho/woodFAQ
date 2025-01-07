@@ -1,0 +1,24 @@
+{
+    "utterances": [
+        {
+            "text": "How much does the wood cost?",
+            "entities": [],
+            "traits": [],
+            "intent": "PriceCheck"
+        },
+        {
+            "text": "How much is oak wood?",
+            "entities": [
+                {
+                    "entity": "wood_type:wood_type",
+                    "start": 12,
+                    "end": 15,
+                    "body": "oak",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "PriceCheck"
+        }
+    ]
+}

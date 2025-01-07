@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip understanding.zip understanding\/app.json understanding\/entities\/*.json understanding\/intents\/*.json understanding\/traits\/*.json understanding\/utterances\/*.json understanding\/composer\/*.json",
+    "name": "understanding",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "WoodCheckEntity",
+    "roles": [
+        "PriceCheckEntity"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": []
+}

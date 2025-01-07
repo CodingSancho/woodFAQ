@@ -1,0 +1,22 @@
+[
+  {
+    "text": "How much is oak wood?",
+    "intent": "get_price",
+    "entities": [
+      {
+        "entity": "material_type",
+        "value": "oak wood"
+      }
+    ]
+  },
+  {
+    "text": "What does pine cost?",
+    "intent": "get_price",
+    "entities": [
+      {
+        "entity": "material_type",
+        "value": "pine"
+      }
+    ]
+  }
+]
