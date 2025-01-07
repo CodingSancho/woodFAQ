@@ -1,6 +1,6 @@
-# Wood Price Estimator - intent classification and entity extraction
+# Wood Price Estimator
 
-A smart wood price estimation service that uses Natural Language Processing to understand and process wood pricing queries. Quick and free intent classification and entity extraction.
+A smart wood price estimation service that uses Natural Language Processing to understand and process wood pricing queries. Quick intent classification and entity extraction, for free!
 
 Example input:
 ```
