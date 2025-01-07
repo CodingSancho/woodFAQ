@@ -1,6 +1,23 @@
-# Wood Price Estimator with Wit.ai
+# Wood Price Estimator - intent classification and entity extraction
 
-A smart wood price estimation service that uses natural language processing to understand and process wood pricing queries. Built with Wit.ai and Flask.
+A smart wood price estimation service that uses Natural Language Processing to understand and process wood pricing queries. Quick and free intent classification and entity extraction.
+
+Example input:
+```
+curl -X POST http://localhost:5000/estimate \
+  -H "Content-Type: application/json" \
+  -d '{"message": "How much would 50 square feet of oak wood cost?"}'
+```
+Example output:
+```
+{
+    "price_per_unit": 5.75,
+    "quantity": 1,
+    "total_price": 5.75,
+    "unit": "square foot",
+    "wood_type": "oak"
+}
+```
 
 ## Features
 
@@ -13,13 +30,13 @@ A smart wood price estimation service that uses natural language processing to u
 ## Setup
 
 1. Clone the repository
-```bash
+```
 git clone https://github.com/CodingSancho/woodFAQ.git
 cd wood-price-estimator
 ```
 
 2. Install dependencies
-```bash
+```
 pip install -r requirements.txt
 ```
 
